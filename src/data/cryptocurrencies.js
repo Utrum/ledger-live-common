@@ -1599,6 +1599,35 @@ const cryptocurrenciesById = {
     ],
     txExplorers: ["https://ubiqscan.io/tx/$hash"]
   },
+  utrum: {
+    id: "utrum",
+    coinType: 212,
+    name: "Utrum",
+    managerAppName: "Utrum",
+    ticker: "OOT",
+    scheme: "oot",
+    color: "#141828",
+    family: "bitcoin",
+    ledgerExplorerId: "oot",
+    blockAvgTime: 60,
+    bitcoinLikeInfo: {
+      P2PKH: 60,
+      P2SH: 85
+    },
+    units: [
+      {
+        name: "oot",
+        code: "OOT",
+        magnitude: 8
+      },
+      {
+        name: "satoshi",
+        code: "sat",
+        magnitude: 0
+      }
+    ],
+    txExplorers: ["https://explorer.utrum.io/tx/$hash"]
+  },
   vechain: {
     id: "vechain",
     coinType: 818,
